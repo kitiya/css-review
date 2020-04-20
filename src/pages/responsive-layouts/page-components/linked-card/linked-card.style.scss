@@ -1,0 +1,35 @@
+@import "../../responsive-layouts.style.scss";
+
+.card-container {
+  overflow: auto;
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    lighten($clr-accent, 15%),
+    lighten($clr-accent, 10%)
+  );
+  border-left: 5px solid $clr-dark;
+  padding: 0.75em;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: lighten($clr-accent, 12%);
+  }
+
+  & a {
+    padding: 0.5em;
+    display: flex;
+    flex-direction: column;
+    color: darken($clr-dark, 5%);
+
+    .card-id {
+      padding-bottom: 0.5em;
+      padding-left: 0.1em;
+      border-bottom: 2px solid lighten($clr-accent, 25%);
+    }
+
+    .card-title {
+      margin-top: 0.5em;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "../../App.scss";
+
+.nav-header {
+  background: $clr-dark;
+
+  .navbar {
+    height: 7vh;
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navbar-brand {
+      color: $clr-light;
+      font-weight: $fw-bold;
+      letter-spacing: 0.2em;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    .nav-items {
+      display: flex;
+      justify-content: space-between;
+      .nav-item {
+        margin: 1em;
+        list-style: none;
+
+        .nav-link {
+          color: $clr-light;
+          text-transform: uppercase;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

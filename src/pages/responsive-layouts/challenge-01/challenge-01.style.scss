@@ -1,0 +1,17 @@
+@import "../responsive-layouts.style.scss";
+
+.challenge-sandbox {
+  .container01 {
+    background: lighten($clr-highlight, 10%);
+    color: white;
+    width: 80%;
+    margin: 0 auto;
+    padding: 2em;
+    // height: 300px;
+
+    .intro-content {
+      width: 50%;
+      text-align: left;
+    }
+  }
+}

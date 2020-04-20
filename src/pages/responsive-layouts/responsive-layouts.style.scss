@@ -1,0 +1,19 @@
+@import "../../App.scss";
+
+.responsive-layout-page {
+  padding: 2em;
+  .page-title {
+    margin-bottom: 0.5em;
+  }
+
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
+}
+
+.challenge-sandbox {
+  min-height: 100vh;
+  position: relative;
+}

@@ -32,10 +32,6 @@ a {
   cursor: pointer;
 }
 
-section {
-  padding: 5em 2em;
-}
-
 img {
   display: block;
   max-width: 100%;
@@ -99,16 +95,4 @@ h5 {
 }
 h6 {
   @include font-size($fs-h6);
-}
-
-/* Styling the titles and subtitles*/
-
-.section__title {
-  margin-bottom: 0.25em;
-}
-
-.section__subtitle {
-  // paragraph
-  margin: 0;
-  @include font-size($fs-h5);
 }

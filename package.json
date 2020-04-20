@@ -2,10 +2,12 @@
   "name": "css-review",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://kitiya.github.io/css-review/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -14,6 +16,8 @@
     "rfs": "^9.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "PORT=3010 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

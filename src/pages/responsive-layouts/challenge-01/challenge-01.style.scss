@@ -2,8 +2,8 @@
 
 .challenge-sandbox {
   .container01 {
-    background: lighten($clr-highlight, 10%);
-    color: white;
+    background: lighten($clr-accent2, 10%);
+    color: $clr-dark;
     width: 80%;
     margin: 0 auto;
     padding: 2em;

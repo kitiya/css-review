@@ -22,14 +22,15 @@
   }
 
   a {
-    background-color: lighten($clr-accent, 10%);
-    color: $clr-dark;
-    padding: 0.5em;
+    background-color: lighten($clr-dark, 2%);
+    color: $clr-light;
+    padding: 0.5em 1em;
     border-radius: 1em;
     text-transform: uppercase;
     @include font-size($fs-h6);
+    @include box-shadow();
     &:hover {
-      background-color: lighten($clr-accent, 5%);
+      background-color: lighten($clr-dark, 8%);
     }
   }
 }

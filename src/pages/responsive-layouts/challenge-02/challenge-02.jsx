@@ -7,8 +7,8 @@ const Challenge02 = () => {
     <>
       <section className="challenge-sandbox" id="ch02">
         <div className="body02">
-          <div class="container">
-            <div className="wrapper">
+          <div class="intro">
+            <div className="container">
               <div class="intro-content">
                 <h1>Lorem ipsum dolor sit.</h1>
                 <p>
@@ -19,7 +19,7 @@ const Challenge02 = () => {
               </div>
             </div>
           </div>
-          <section className="more-content-wrapper">
+          <section className="container">
             <h2>more content D:</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.

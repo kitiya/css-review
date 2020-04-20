@@ -8,9 +8,18 @@ const Challenge03 = () => {
       <section className="challenge-sandbox" id="ch02">
         <div className="body03">
           <div className="container">
-            <h2 className="title"></h2>
-            <p className="subtitle"></p>
-            <a href="#">I want to learn</a>
+            <h2 className="title">
+              Responsive layouts don't have to be a struggle
+            </h2>
+            <p className="subtitle">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Exercitationem aspernatur distinctio laudantium dolores. Nulla
+              quibusdam reprehenderit eum sit minus aliquid! Exercitationem
+              aspernatur distinctio laudantium dolores.
+            </p>
+            <a href="#" className="btn">
+              I want to learn
+            </a>
           </div>
         </div>
       </section>

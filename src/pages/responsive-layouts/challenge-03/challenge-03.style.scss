@@ -1,16 +1,27 @@
 @import "../responsive-layouts.style.scss";
 
-.body02 {
-  .intro {
-    background: $clr-accent2;
-  }
+.body03 {
+  background: $clr-accent2;
+  color: $clr-dark;
+
   .container {
-    width: 80%;
-    max-width: 750px;
-    margin: 0 auto;
-    padding: 1em 0;
-    .intro-content {
-      width: 50%;
+    width: 60%;
+    max-width: 900px;
+    padding: 5em;
+
+    .title {
+      @include font-size(3rem);
+    }
+    .subtitle {
+      color: lighten($clr-dark, 10%);
+    }
+
+    .btn {
+      background-color: $clr-accent;
+      color: $clr-light;
+      border-radius: 5em;
+      padding: 1em 2em;
+      margin-top: 2em;
     }
   }
 }

@@ -13,7 +13,7 @@ export const challengeDB = [
   },
   {
     id: 3,
-    title: "Max width",
+    title: "Simple landing page",
     content: "",
     url: "responsive-layout-03",
   },

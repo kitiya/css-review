@@ -16,11 +16,11 @@ const Challenge01 = () => {
             </p>
           </div>
         </div>
-        <ChallengeFooter
-          title="Challenge 01: Using percentages & avoiding heights"
-          nextId={"02"}
-        />
       </section>
+      <ChallengeFooter
+        title="Challenge 01: Using percentages & avoiding heights"
+        nextId={"02"}
+      />
     </>
   );
 };

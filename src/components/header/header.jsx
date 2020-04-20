@@ -7,9 +7,9 @@ const Header = () => {
   return (
     <header className="nav-header">
       <nav className="navbar">
-        <a className="navbar-brand" href="/">
+        <NavLink className="navbar-brand" to="/">
           {"<KTY/>"}
-        </a>
+        </NavLink>
         <ul className="nav-items">
           <li className="nav-item">
             <NavLink className="nav-link" to="/responsive-layouts">

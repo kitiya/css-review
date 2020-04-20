@@ -8,7 +8,7 @@ import "./App.scss";
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <HashRouter basename="/#">
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/responsive-layouts" component={ResponsiveLayouts} />

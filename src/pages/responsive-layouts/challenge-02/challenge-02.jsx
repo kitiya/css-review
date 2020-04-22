@@ -5,7 +5,7 @@ import "./challenge-02.style.scss";
 const Challenge02 = () => {
   return (
     <>
-      <section className="challenge-sandbox" id="ch02">
+      <section className="challenge-sandbox">
         <div className="body02">
           <div class="intro">
             <div className="container">

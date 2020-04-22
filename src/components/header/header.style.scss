@@ -12,11 +12,15 @@
     align-items: center;
 
     .navbar-brand {
-      color: $clr-light;
-      font-weight: $fw-bold;
-      letter-spacing: 0.2em;
-      &:hover {
-        transform: scale(1.1);
+      display: flex;
+      align-items: center;
+      .logo {
+        width: 50px;
+        transition: all 200ms ease-in-out;
+
+        &:hover {
+          transform: scale(1.1);
+        }
       }
     }
     .nav-items {

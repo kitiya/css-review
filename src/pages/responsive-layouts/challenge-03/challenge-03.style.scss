@@ -1,36 +1,38 @@
 @import "../responsive-layouts.style.scss";
 
-.hero {
-  padding: 100px 0;
-  background: $clr-accent2;
-  color: $clr-dark;
+.body03 {
+  .hero {
+    padding: 100px 0;
+    background: $clr-accent2;
+    color: $clr-dark;
 
-  .container {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      margin: 0 auto;
 
-    .hero__text {
-      width: 60%;
+      .hero__text {
+        width: 60%;
 
-      .title {
-        @include font-size(3rem);
-      }
-      .subtitle {
-        color: lighten($clr-dark, 10%);
-        margin-bottom: 3em;
-      }
+        .title {
+          @include font-size(3rem);
+        }
+        .subtitle {
+          color: lighten($clr-dark, 10%);
+          margin-bottom: 3em;
+        }
 
-      .btn {
-        display: inline-block;
-        background-color: $clr-accent;
-        color: $clr-light;
-        border-radius: 5em;
-        padding: 0.75em 2em;
+        .btn {
+          display: inline-block;
+          background-color: $clr-accent;
+          color: $clr-light;
+          border-radius: 5em;
+          padding: 0.75em 2em;
 
-        &:hover,
-        &:focus {
-          background-color: darken($clr-accent, 3%);
+          &:hover,
+          &:focus {
+            background-color: darken($clr-accent, 3%);
+          }
         }
       }
     }

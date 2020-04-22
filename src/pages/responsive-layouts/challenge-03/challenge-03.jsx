@@ -5,7 +5,7 @@ import "./challenge-03.style.scss";
 const Challenge03 = () => {
   return (
     <>
-      <section className="challenge-sandbox" id="ch02">
+      <section className="challenge-sandbox">
         <div className="body03">
           <div className="hero">
             <div className="container">
@@ -19,7 +19,7 @@ const Challenge03 = () => {
                   quibusdam reprehenderit eum sit minus aliquid! Exercitationem
                   aspernatur distinctio laudantium dolores.
                 </p>
-                <a href="#" className="btn">
+                <a href="/#" className="btn">
                   I want to learn
                 </a>
               </div>
@@ -27,7 +27,7 @@ const Challenge03 = () => {
           </div>
         </div>
       </section>
-      <ChallengeFooter title="Challenge 02: Max Width" nextId={"04"} />
+      <ChallengeFooter title="Challenge 03: Hero Section" nextId={"04"} />
     </>
   );
 };

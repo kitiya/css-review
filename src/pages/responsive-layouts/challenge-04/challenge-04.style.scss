@@ -1,0 +1,66 @@
+@import "../responsive-layouts.style.scss";
+
+.body04 {
+  .hero {
+    padding: 100px 0;
+    background-color: $clr-accent2;
+
+    .hero__text {
+      width: 60%;
+      color: $clr-dark;
+
+      .subtitle {
+        margin-bottom: 3em;
+      }
+
+      .btn {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: $clr-light;
+        font-weight: 900;
+        background-color: $clr-accent;
+        padding: 0.75em 2em;
+        border-radius: 100px;
+
+        &:hover,
+        &:focus {
+          opacity: 0.75;
+        }
+      }
+    }
+  }
+
+  .container {
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    &.row {
+      display: flex;
+
+      .col {
+        width: 100%;
+        text-align: center;
+      }
+
+      .col + .col {
+        margin-left: 30px;
+      }
+    }
+  }
+
+  .three-col {
+    padding: 3em 0;
+
+    &__title {
+      color: lighten($clr-highlight, 5%);
+    }
+  }
+
+  .two-col {
+    padding: 3em 0;
+    background-color: $clr-dark;
+    color: $clr-light;
+  }
+}

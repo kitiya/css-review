@@ -8,7 +8,11 @@ const Header = () => {
     <header className="nav-header">
       <nav className="navbar">
         <NavLink className="navbar-brand" to="/">
-          {"<KTY/>"}
+          <img
+            className="logo"
+            src={`${process.env.PUBLIC_URL}/logo512.png`}
+            alt=""
+          />
         </NavLink>
         <ul className="nav-items">
           <li className="nav-item">

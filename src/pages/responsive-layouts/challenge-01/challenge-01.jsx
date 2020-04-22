@@ -5,15 +5,17 @@ import "./challenge-01.style.scss";
 const Challenge01 = () => {
   return (
     <>
-      <section className="challenge-sandbox" id="ch01">
-        <div className="container01">
-          <div className="intro-content">
-            <h1>Lorem ipsum dolor sit.</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Exercitationem aspernatur distinctio laudantium dolores. Nulla
-              quibusdam reprehenderit eum sit minus aliquid!
-            </p>
+      <section className="challenge-sandbox">
+        <div className="body01">
+          <div className="container">
+            <div className="intro-content">
+              <h1>Lorem ipsum dolor sit.</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Exercitationem aspernatur distinctio laudantium dolores. Nulla
+                quibusdam reprehenderit eum sit minus aliquid!
+              </p>
+            </div>
           </div>
         </div>
       </section>

@@ -1,7 +1,7 @@
 @import "../../App.scss";
 
 .nav-header {
-  background: $clr-dark;
+  background: darken($clr-dark, 10%);
 
   .navbar {
     height: 7vh;

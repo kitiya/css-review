@@ -31,7 +31,7 @@ export const challengeDB = [
   },
   {
     id: 6,
-    title: "Basic Navbar",
+    title: "Flexbox III: Navbar",
     content: "",
     url: "responsive-layout-06",
   },

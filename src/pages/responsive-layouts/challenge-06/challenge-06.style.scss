@@ -16,10 +16,11 @@
     background: darken($clr-dark, 10%);
     padding: 0.3em 0;
 
-    .logo {
+    .logo__link {
       width: 50px;
       height: 50px;
     }
+
     .nav {
       display: flex;
       align-items: center;

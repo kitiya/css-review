@@ -14,40 +14,52 @@
 
   header {
     background: darken($clr-dark, 10%);
-    padding: 0.5em;
+    padding: 0.3em 0;
 
-    .nav__list {
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+    .nav {
       display: flex;
-      // justify-content: flex-start;
-      width: 80%;
-      margin: 0 auto;
-      padding: 0;
-      list-style: none;
+      align-items: center;
+      justify-content: space-between;
+      flex-grow: 1;
 
-      .nav__item + .nav__item {
-        margin-left: 1em;
-      }
+      .nav__list {
+        display: flex;
+        padding: 0;
+        list-style: none;
 
-      .nav__link {
-        color: #fff;
-        text-decoration: none;
-        text-transform: uppercase;
-        @include font-size($fs-h6);
-
-        &:hover {
-          opacity: 0.75;
+        &.nav__list--primary {
+          margin: 0 auto;
         }
 
-        &--button {
-          background-color: $clr-light;
-          color: $clr-dark;
-          padding: 0.5em 1em;
-          border-radius: 1em;
-          text-transform: uppercase;
+        .nav__item + .nav__item {
+          margin-left: 1em;
+        }
 
-          @include box-shadow();
+        .nav__link {
+          color: #fff;
+          text-decoration: none;
+          text-transform: uppercase;
+          @include font-size($fs-h6);
+
           &:hover {
-            background-color: lighten($clr-dark, 8%);
+            opacity: 0.75;
+          }
+
+          &--button {
+            background-color: $clr-light;
+            color: $clr-dark;
+            padding: 0.5em 1em;
+            border-radius: 1em;
+            text-transform: uppercase;
+
+            @include box-shadow();
+            &:hover {
+              background-color: lighten($clr-dark, 8%);
+            }
           }
         }
       }

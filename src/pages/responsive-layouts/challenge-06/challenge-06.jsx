@@ -8,35 +8,45 @@ const Challenge06 = () => {
       <section className="challenge-sandbox">
         <div className="body06">
           <header>
-            <nav class="nav">
-              <ul class="nav__list">
-                <li class="nav__item">
-                  <a href="/#" class="nav__link">
-                    Home
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a href="/#" class="nav__link">
-                    About
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a href="/#" class="nav__link">
-                    Contact
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a href="/#" class="nav__link">
-                    Sign In
-                  </a>
-                </li>
-                <li class="nav__item">
-                  <a href="/#" class="nav__link nav__link--button">
-                    Sign up
-                  </a>
-                </li>
-              </ul>
-            </nav>
+            <div className="container row">
+              <a href="/#" className="logo">
+                <img
+                  src={`${process.env.PUBLIC_URL}/assets/images/logo/ks_logo.svg`}
+                  alt=""
+                />
+              </a>
+              <nav class="nav">
+                <ul class="nav__list nav__list--primary">
+                  <li class="nav__item">
+                    <a href="/#" class="nav__link">
+                      Home
+                    </a>
+                  </li>
+                  <li class="nav__item nav__list--secondary">
+                    <a href="/#" class="nav__link">
+                      About
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="/#" class="nav__link">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+                <ul class="nav__list">
+                  <li class="nav__item">
+                    <a href="/#" class="nav__link">
+                      Sign In
+                    </a>
+                  </li>
+                  <li class="nav__item">
+                    <a href="/#" class="nav__link nav__link--button">
+                      Sign up
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </header>
 
           <section className="hero">

@@ -13,17 +13,19 @@ const ChallengeFooter = ({ title, nextId }) => {
 
   return (
     <footer className="challenge-footer">
-      {nextId === 2 ? (
-        <div className="wrapper">
-          <Link to="/">Home</Link>
-          <Link to="/responsive-layouts">Back</Link>
-        </div>
-      ) : (
-        <Link to={`/responsive-layout-${prevId}`}>Previous Challenge</Link>
-      )}
+      <div className="container row">
+        {nextId === 2 ? (
+          <div className="wrapper">
+            <Link to="/">Home</Link>
+            <Link to="/responsive-layouts">Back</Link>
+          </div>
+        ) : (
+          <Link to={`/responsive-layout-${prevId}`}>Previous Challenge</Link>
+        )}
 
-      <span className="h5">{title}</span>
-      <Link to={`/responsive-layout-${nextId}`}>Next Challenge</Link>
+        <span className="h5">{title}</span>
+        <Link to={`/responsive-layout-${nextId}`}>Next Challenge</Link>
+      </div>{" "}
     </footer>
   );
 };

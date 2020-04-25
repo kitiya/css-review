@@ -31,7 +31,7 @@ export const challengeDB = [
   },
   {
     id: 6,
-    title: "Comming Soon!",
+    title: "Basic Navbar",
     content: "",
     url: "responsive-layout-06",
   },
@@ -40,5 +40,23 @@ export const challengeDB = [
     title: "Comming Soon!",
     content: "",
     url: "responsive-layout-07",
+  },
+  {
+    id: 8,
+    title: "Comming Soon!",
+    content: "",
+    url: "responsive-layout-08",
+  },
+  {
+    id: 9,
+    title: "Comming Soon!",
+    content: "",
+    url: "responsive-layout-09",
+  },
+  {
+    id: 10,
+    title: "Comming Soon!",
+    content: "",
+    url: "responsive-layout-10",
   },
 ];

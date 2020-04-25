@@ -19,13 +19,13 @@ export const challengeDB = [
   },
   {
     id: 4,
-    title: "Flexbox I",
+    title: "Flexbox I: Rows & columns",
     content: "",
     url: "responsive-layout-04",
   },
   {
     id: 5,
-    title: "Comming Soon!",
+    title: "Flexbox II: Image",
     content: "",
     url: "responsive-layout-05",
   },
